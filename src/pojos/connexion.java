@@ -1,6 +1,8 @@
 package pojos;
 
 import java.io.IOException;
+
+import javax.jws.WebService;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class connexion
  */
 @WebServlet("/connexion")
-public class connexion extends HttpServlet {
+public class connexion extends   HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
