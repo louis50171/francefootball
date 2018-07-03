@@ -36,7 +36,7 @@ public class connexion extends   HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {{
-	this.getServletContext().getRequestDispatcher("index.jsp").forward(request,response);	
+	this.getServletContext().getRequestDispatcher("/WEB-INF/score.jsp").forward(request,response);	
 		}
 		
 		
